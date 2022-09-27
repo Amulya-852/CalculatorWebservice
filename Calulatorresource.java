@@ -1,7 +1,7 @@
 package Calulatorresource;
 public calss Calculator{
     public static void main(string[] args){
-        CalculatorResourceService service= new CalculatorResourceService();
+        CalculatorService service= new CalculatorService();
         CalculatorResource resource= service.getCalculatorResourcePort();
         System.out.println(resource.add(3.4,4.5));
         System.out.println(resource.sub(5.6,2.5));
